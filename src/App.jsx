@@ -80,6 +80,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <div className="max-w-5xl mx-auto p-6">
+
+{/* 👇 wrap everything from here down */}
+      <ErrorBoundary></ErrorBoundary>
         <header className="mb-4 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold">Fencing Performance</h1>
